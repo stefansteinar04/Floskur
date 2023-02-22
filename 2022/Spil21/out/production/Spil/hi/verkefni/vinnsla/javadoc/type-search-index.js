@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"hi.verkefni.vinnsla","l":"Gildi"},{"p":"hi.verkefni.vinnsla","l":"LeikmadurInterface"},{"p":"hi.verkefni.vinnsla","l":"SpilV"},{"p":"hi.verkefni.vinnsla","l":"Stokkur"},{"p":"hi.verkefni.vinnsla","l":"Tegund"}]
