@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ebba Þóra Hvannberg
+Viðmót fyrir Fæðu
+ -->
+
+<fx:root fill="Brown" radius="7" type="javafx.scene.shape.Circle"
+ xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+
+</fx:root>

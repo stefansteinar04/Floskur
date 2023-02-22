@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ebba Þóra Hvannberg
+Viðmót fyrir EiturSnakur -->
+<?import java.lang.String?>
+
+<?import java.lang.Integer?>
+<fx:root rotate="90" fill="$LITUREITURSNAKUR" width="20" height="10" type="javafx.scene.shape.Rectangle"
+         xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <fx:define xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+        <String fx:id="LITUREITURSNAKUR" fx:value="Grey" />
+        <Integer fx:id="OFFSET" fx:value="5" />
+    </fx:define>
+</fx:root>
