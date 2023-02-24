@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="pipemania" />
         <module name="vidmot" />
+        <module name="vidmot (1)" />
         <module name="vidmot (1) (hi.verkefni)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="pipemania" target="17" />
       <module name="vidmot" target="11" />
-      <module name="vidmot (1) (hi.verkefni)" target="11" />
+      <module name="vidmot (1)" target="17" />
+      <module name="vidmot (1) (hi.verkefni)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
