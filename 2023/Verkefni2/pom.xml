@@ -7,7 +7,7 @@
     <groupId>is</groupId>
     <artifactId>pipemania</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Verkefni2</name>
+    <name>Verkefni2 pipemania</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -7,7 +7,7 @@
     <groupId>is</groupId>
     <artifactId>vidmot</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Verkefni 3</name>
+    <name>Verkefni 3 Takeaway</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
