@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<DialogPane prefHeight="175.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <ButtonType fx:id="fxILagi" buttonData="OK_DONE" text="Í lagi" />
+   <ButtonType fx:id="fxHaettaVid" buttonData="CANCEL_CLOSE" text="Hætta við" />
+   <content>
+      <VBox prefHeight="114.0" prefWidth="340.0">
+         <children>
+            <HBox prefHeight="30.0" prefWidth="320.0">
+               <children>
+                  <Label prefHeight="26.0" prefWidth="160.0" text="Nafn" />
+                  <TextField fx:id="fxNafn" prefHeight="25.0" prefWidth="179.0" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="20.0" layoutY="20.0" prefHeight="99.0" prefWidth="320.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="160.0" text="Heimilisfang" />
+                  <TextField fx:id="fxHeimilisfang" prefHeight="25.0" prefWidth="179.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+</DialogPane>

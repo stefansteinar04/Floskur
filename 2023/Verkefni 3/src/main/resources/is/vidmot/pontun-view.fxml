@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import is.vidmot.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.vidmot.PontunController">
+   <center>
+     <MatsedillView fx:id="fxMatsedill" />
+   </center>
+   <top>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <Label layoutX="63.0" prefHeight="33.0" prefWidth="273.0" text="TakeAway Ebbu " AnchorPane.leftAnchor="5.0" />
+         <Button fx:id="fxInnskraning" layoutX="360.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#fxInnskraningHandler" prefHeight="33.0" prefWidth="166.0" text="Innskráning" AnchorPane.leftAnchor="360.0" AnchorPane.rightAnchor="5.0" />
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <Button  mnemonicParsing="false" onAction="#fxGreidaHandler" prefHeight="31.0" prefWidth="170.0" text="Greiða"
+                  AnchorPane.rightAnchor="4.0">
+            <tooltip><Tooltip text="Skráðu viðskiptavin áður en þú greiðir"/></tooltip>
+         </Button>
+      </AnchorPane>
+   </bottom>
+   <right>
+      <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="335.0" prefWidth="176.0" BorderPane.alignment="CENTER">
+         <ListView fx:id="fxKarfa" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="276.0" prefWidth="189.0" VBox.vgrow="ALWAYS">
+            <VBox.margin>
+               <Insets left="5.0" right="5.0" />
+            </VBox.margin>
+         </ListView>
+         <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#fxSetjaKorfuHandler" prefHeight="25.0" prefWidth="236.0" text="Setja í körfu">
+            <padding>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+            <VBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </VBox.margin>
+         </Button>
+         <Button layoutX="10.0" layoutY="284.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#fxTakaUrKorfuHandler" prefHeight="25.0" prefWidth="236.0" text="Taka úr körfu">
+            <padding>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+            <VBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" />
+            </VBox.margin>
+         </Button>
+         <Label fx:id="fxSamtals" alignment="CENTER_RIGHT" prefHeight="19.0" prefWidth="192.0" style="-fx-border-color: black;" text="0">
+            <VBox.margin>
+               <Insets left="5.0" right="5.0" />
+            </VBox.margin>
+            <padding>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+         </Label>
+      </VBox>
+   </right>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+   </padding>
+   <left>
+      <Region maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="320.0" prefWidth="123.0" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>
