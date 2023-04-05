@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import is.verkefni4.vidmot.*?>
+<?import javafx.scene.layout.*?>
+<!--  custom component -->
+<fx:root prefHeight="300.0" prefWidth="309.0" stylesheets="@bouncingball.css" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+    <Bolti fx:id="fxBolti" x="10.0" y="5.0" />
+    <Pallur x="100" y="50" />
+    <Pallur x="150" y="150" />
+    <Pallur x="125" y="200" />
+</fx:root>
