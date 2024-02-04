@@ -19,7 +19,6 @@ import java.io.IOException;
  *
  *****************************************************************************/
 public class VidskiptavinurDialog extends Dialog<Vidskiptavinur> {
-
     @FXML
     private ButtonType fxILagi;
     @FXML

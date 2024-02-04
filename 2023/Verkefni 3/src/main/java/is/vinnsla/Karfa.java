@@ -22,8 +22,10 @@ public class Karfa extends Matsedill {
             while (c.next()) {
                 if (c.wasAdded()) { // var staki bætt við
                     heildarVerd.set(heildarVerd.get() + c.getAddedSubList().get(0).getVerd());
-                } else if (c.wasRemoved()) { // var staki eytt
+                } else if (c.wasRemoved() && !veitingar.isEmpty()) { // var staki eytt
                     heildarVerd.set(heildarVerd.get() - c.getRemoved().get(0).getVerd());
+                } else if (c.wasRemoved() && veitingar.isEmpty()) { // var staki eytt og er listinn tómur
+                    heildarVerd.set(0);
                 }
             }
         });
