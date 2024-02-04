@@ -14,7 +14,8 @@ import java.util.Optional;
  *  Nafn    : Ebba Þóra Hvannberg
  *  T-póstur: ebba@hi.is
  *
- *  Lýsing  : Controller fyrir pöntunarsenuna
+ *  Lýsing  : Controller fyrir pöntunarsenuna hægt að setja í körfu, taka úr körfu,
+ *  greiða og skrá inn viðskiptavin
  *
  *
  *****************************************************************************/

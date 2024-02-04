@@ -8,21 +8,22 @@ import javafx.scene.control.Label;
  *  Nafn    : Ebba Þóra Hvannberg
  *  T-póstur: ebba@hi.is
  *
- *  Lýsing  : 
+ *  Lýsing  : Greiðslustýring - aðeins hægt að fara til baka í pöntun
  *
  *
  *****************************************************************************/
 public class GreidslaController  {
 
-    public Label fxVidskiptavinur;
-    public Label fxHeimilisfang;
+    public Label fxVidskiptavinur; // viðmótshlutur fyrir nafn viðskiptavinar
+    public Label fxHeimilisfang;    // heimilsfang viðskiptavinar
     @FXML
-    private Label fxVerd;
+    private Label fxVerd;   // verðið sem á að greiða
 
     /**
      * upphafsstilla reglur sem tengja senurnar
      */
     public void initialize() {
+        // náum í controllerinn fyrir  pöntunarview svo hægt sé að setja reglur á milli greiðslu og pöntunar
         PontunController pontunController = (PontunController) ViewSwitcher.lookup(View.PONTUN);
         fxVerd.textProperty().bind(pontunController.getKarfa().heildarVerdProperty().asString());
         fxVidskiptavinur.textProperty().bind(pontunController.getVidskiptavinur().nafnProperty());

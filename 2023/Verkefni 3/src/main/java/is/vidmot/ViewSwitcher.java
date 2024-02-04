@@ -57,5 +57,4 @@ public class ViewSwitcher {
         return controllers.get(v);
     }
 
-    public static Parent lookupRoot(View v) {return cache.get(v);}
 }
