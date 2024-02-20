@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hi.ludo.utlit.LudoBordController">
+   <children>
+      <VBox layoutX="1.0" layoutY="-1.0" prefHeight="386.0" prefWidth="502.0">
+         <children>
+            <HBox prefHeight="98.0" prefWidth="515.0">
+               <children>
+                  <Pane prefHeight="98.0" prefWidth="170.0" />
+                  <GridPane gridLinesVisible="true" prefHeight="98.0" prefWidth="148.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button id="11" fx:id="b11" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" />
+                        <Button id="17" fx:id="b17" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                        <Button id="16" fx:id="b16" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                        <Button id="9" fx:id="b9" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.rowIndex="2" />
+                        <Button contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="49.0" style="-fx-background-color: green;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Button id="14" fx:id="b14" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <Button contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="49.0" style="-fx-background-color: green;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Button id="15" fx:id="b15" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <Button id="12" fx:id="b12" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" />
+                        <Button id="11" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="49.0" style="-fx-background-color: green;" GridPane.columnIndex="1" />
+                        <Button id="6" fx:id="b6" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.rowIndex="5" />
+                        <Button id="7" fx:id="b7" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.rowIndex="4" />
+                        <Button id="8" fx:id="b8" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="49.0" GridPane.rowIndex="3" />
+                        <Button id="10" fx:id="b10" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.rowIndex="1" />
+                        <Button contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="50.0" style="-fx-background-color: green;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Button contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="49.0" style="-fx-background-color: green;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Button id="13" fx:id="b13" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Button contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="50.0" style="-fx-background-color: green;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </GridPane>
+                  <Pane prefHeight="98.0" prefWidth="181.0">
+                     <children>
+                        <Button id="1" fx:id="jGH" disable="true" layoutX="80.0" layoutY="26.0" mnemonicParsing="false" onAction="#heimaHofnHandler" style="-fx-background-color: green;" text="1" textFill="#e9dada">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children></Pane>
+               </children>
+            </HBox>
+            <HBox prefHeight="98.0" prefWidth="511.0">
+               <children>
+                  <BorderPane prefHeight="77.0" prefWidth="485.0">
+                     <top>
+                        <Label fx:id="gMark" style="-fx-border-color: green;" text="0" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets top="10.0" />
+                           </BorderPane.margin>
+                           <padding>
+                              <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                           </padding></Label>
+                     </top>
+                     <bottom>
+                        <Label fx:id="rMark" style="-fx-border-color: red;" text="0" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets bottom="10.0" />
+                           </BorderPane.margin>
+                           <padding>
+                              <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                           </padding></Label>
+                     </bottom>
+                  </BorderPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="98.0" prefWidth="512.0">
+               <children>
+                  <Pane prefHeight="100.0" prefWidth="171.0">
+                     <children>
+                        <Button id="0" fx:id="jRH" disable="true" layoutX="71.0" layoutY="32.0" mnemonicParsing="false" onAction="#heimaHofnHandler" style="-fx-background-color: red;" text="1" textFill="#e9dada">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <GridPane gridLinesVisible="true" prefHeight="122.0" prefWidth="151.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                     </rowConstraints>
+                     <children>
+                        <Button id="4" fx:id="b4" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" />
+                        <Button id="3" fx:id="b3" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" />
+                        <Button id="2" fx:id="b2" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" />
+                        <Button id="1" fx:id="b1" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" />
+                        <Button id="0" fx:id="b0" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" />
+                        <Button id="5" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="52.0" style="-fx-background-color: red;" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" />
+                        <Button id="4" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="52.0" style="-fx-background-color: red;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Button id="3" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="52.0" style="-fx-background-color: red;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Button id="2" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="52.0" style="-fx-background-color: red;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Button id="1" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="52.0" style="-fx-background-color: red;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Button id="23" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="16.0" prefWidth="52.0" style="-fx-background-color: red;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Button id="18" fx:id="b18" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" />
+                        <Button id="19" fx:id="b19" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Button id="20" fx:id="b20" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <Button id="21" fx:id="b21" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <Button id="22" fx:id="b22" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                        <Button id="5" fx:id="b5" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="49.0" />
+                        <Button id="23" fx:id="b23" contentDisplay="CENTER" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reiturHandler" prefHeight="16.0" prefWidth="52.0" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="5" GridPane.rowSpan="5" />
+                     </children>
+                  </GridPane>
+                  <Pane prefHeight="93.0" prefWidth="184.0" />
+               </children>
+            </HBox>
+            <Pane prefHeight="111.0" prefWidth="502.0">
+               <children>
+                  <HBox layoutY="7.0" prefHeight="100.0" prefWidth="502.0">
+                     <children>
+                       <fx:include fx:id="teningur" source="TeningurFXML.fxml" />
+                        <Label fx:id="hverGerir" alignment="CENTER" prefHeight="100.0" prefWidth="245.0" style="-fx-background-color: red;" text="Þú átt að gera" textFill="#f4ebeb">
+                           <font>
+                              <Font size="17.0" />
+                           </font></Label>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
