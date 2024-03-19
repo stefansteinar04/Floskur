@@ -1,0 +1,14 @@
+.ekkert-leitarord {
+-fx-border-color: red
+}
+.leitarord {
+-fx-border-color: grey
+}
+
+.enginn-texti {
+-fx-border-color: red
+}
+
+.texti {
+-fx-border-color: grey
+}
