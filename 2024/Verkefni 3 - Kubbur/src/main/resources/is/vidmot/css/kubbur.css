@@ -1,0 +1,56 @@
+.nullnull{
+-fx-background-image:
+   url("myndir/tala1.png");
+   -fx-background-size: cover;
+}
+.nulleinn {
+-fx-background-image:
+   url("myndir/tala2.png");
+   -fx-background-size: cover;
+}
+
+.nulltveir{
+-fx-background-image:
+   url("myndir/tala3.png");
+   -fx-background-size: cover;
+}
+
+.einnnull{
+-fx-background-image:
+   url("myndir/tala4.png");
+   -fx-background-size: cover;
+}
+.einneinn {
+-fx-background-image:
+   url("myndir/tala5.png");
+   -fx-background-size: cover;
+}
+
+.einntveir{
+-fx-background-image:
+   url("myndir/tala6.png");
+   -fx-background-size: cover;
+}
+
+.tveirnull{
+-fx-background-image:
+   url("myndir/tala7.png");
+   -fx-background-size: cover;
+}
+.tveireinn {
+-fx-background-image:
+   url("myndir/tala8.png");
+   -fx-background-size: cover;
+}
+
+.tveirtveir{
+-fx-background-image:
+   url("myndir/tala9.png");
+   -fx-background-size: cover;
+}
+
+
+.AUTT {
+-fx-background-image:
+  null;
+}
