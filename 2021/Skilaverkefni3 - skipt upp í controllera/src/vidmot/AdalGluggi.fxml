@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vidmot.AdalController">
+   <children>
+      <fx:include fx:id="fxValmynd" source="Valmynd.fxml"> </fx:include>
+      <VBox layoutX="1.0" layoutY="159.0" prefHeight="232.0" prefWidth="225.0" spacing="10.0" AnchorPane.bottomAnchor="5.0">
+         <children>
+            <Label prefHeight="45.0" prefWidth="229.0" style="-fx-border-color: black;" text="Nemendalisti">
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </Label>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0">
+               <content>
+                  <ListView fx:id="fxNemendalisti" prefHeight="200.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </ListView>
+               </content>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

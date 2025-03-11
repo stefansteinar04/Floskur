@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vidmot (2) (hi.verkefni)" />
-        <module name="pipemania" />
-        <module name="vidmot" />
-        <module name="vidmot (3)" />
-        <module name="vidmot (1)" />
+        <module name="Skilaverkefni3" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="vidmot" target="11" />
-      <module name="vidmot (1) (hi.verkefni)" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
