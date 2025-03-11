@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="304.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hi.utlit.SkodaVedurspaController">
+               <children>
+                  <Label layoutX="32.0" layoutY="49.0" prefHeight="17.0" prefWidth="60.0" text="Veðurspá  " />
+                  <Label fx:id="vedurstod" layoutX="92.0" layoutY="49.0" prefHeight="17.0" prefWidth="254.0" text="XXX" />
+      <TableView fx:id="vedurspaTafla" layoutX="25.0" layoutY="83.0" prefHeight="211.0" prefWidth="566.0">
+        <columns>
+            <TableColumn fx:id="vedurMynd" prefWidth="96.142822265625" text="Mynd" />
+          <TableColumn fx:id="vedur" editable="false" prefWidth="96.142822265625" sortable="false" style="-fx-wrap-text: true;" text="Veður" />
+          <TableColumn fx:id="vindatt" prefWidth="53.857177734375" text="Vindátt" />
+            <TableColumn fx:id="vindhradi" prefWidth="75.0" text="Vindhraði" />
+            <TableColumn fx:id="hitastig" editable="false" prefWidth="75.0" sortable="false" text="Hitastig" />
+            <TableColumn fx:id="dagsetning" editable="false" prefWidth="105.28570556640625" sortable="false" text="Dagsetning" />
+            <TableColumn fx:id="timi" editable="false" prefWidth="67.0" sortable="false" text="Tími" />
+        </columns>
+      </TableView>
+               </children>
+            </Pane>

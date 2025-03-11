@@ -1,0 +1,233 @@
+<changelist name="Changes" date="1708437978698" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/element-list" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/Gildi.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/resources/glass.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vidmot/myndir/hjarta.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/hi/verkefni/vidmot/myndir/hjarta.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vidmot/myndir/lauf.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/hi/verkefni/vidmot/myndir/lauf.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/vinnsla/Leikmadur.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Leikmadur.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/spilVinnsla/Leikmadur.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/hi/verkefni/spilVinnsla/Leikmadur.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/spilVinnsla/Leikmadur.class" />
+    <option name="AFTER_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/spilVinnsla/Leikmadur.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Leikmadur1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vidmot/LeikmadurDialogPane.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/hi/verkefni/vidmot/LeikmadurDialogPane.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/vidmot/LeikmadurDialogPane.class" />
+    <option name="AFTER_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/vidmot/LeikmadurDialogPane.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/LeikmadurDialogPane.class" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/vinnsla/LeikmadurImp.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/LeikmadurImp.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/LeikmadurInterface.class" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/utlit/LudoApp.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/LudoApp.class" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/vinnsla/LudoBord.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/LudoBord.class" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/utlit/LudoBordController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/LudoBordController.class" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/vinnsla/LudoBordImp.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/LudoBordImp.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/member-search-index.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/module-info.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/module-info.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/target/classes/module-info.class" />
+    <option name="AFTER_PATH" value="../../2022/Spil21/target/classes/module-info.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/module-info.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vidmot/myndir.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/hi/verkefni/vidmot/myndir.zip" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/utlit/myndir/one.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/one.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/package-search-index.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vidmot/myndir/spadi.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/hi/verkefni/vidmot/myndir/spadi.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vidmot/Spil.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/hi/verkefni/vidmot/Spil.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/vidmot/Spil.class" />
+    <option name="AFTER_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/vidmot/Spil.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Spil.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/artifacts/Spil/Spil.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/Spil21Library.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/Spil21LibraryDoc.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/Spil21LibrarySrc.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vidmot/SpilApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/hi/verkefni/vidmot/SpilApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/vidmot/SpilApplication.class" />
+    <option name="AFTER_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/vidmot/SpilApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/SpilApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/vidmot/SpilController$Stada.class" />
+    <option name="AFTER_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/vidmot/SpilController$Stada.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/SpilController$Stada.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vidmot/SpilController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/hi/verkefni/vidmot/SpilController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/vidmot/SpilController.class" />
+    <option name="AFTER_PATH" value="../../2022/Spil21/target/classes/hi/verkefni/vidmot/SpilController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/SpilController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/SpilV.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/Stokkur.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/Tegund.class" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/vinnsla/Teningur.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/Teningur.class" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/utlit/TeningurController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/TeningurController.class" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/utlit/myndir/three.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/three.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vidmot/myndir/tigull.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil21/hi/verkefni/vidmot/myndir/tigull.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="target/classes/is/hi/ludo/utlit/myndir/two.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/two.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/type-search-index.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-bg_glass_65_dadada_1x400.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-icons_222222_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-icons_454545_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-icons_888888_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../../2022/Spil21/out/production/Spil/hi/verkefni/vinnsla/javadoc/resources/x.png" />
+  </binary>
+</changelist>
