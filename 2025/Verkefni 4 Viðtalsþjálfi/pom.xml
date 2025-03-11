@@ -4,29 +4,26 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>vidmot</groupId>
-    <artifactId>Strengir</artifactId>
+    <groupId>hi</groupId>
+    <artifactId>interview</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Strengir</name>
+    <name>verkefni4</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit.version>5.8.2</junit.version>
-        <!-- Þið getið breytt þessum útgáfum eftir því hvað hentar ykkur -->
-        <javafx.version>18</javafx.version>
-        <maven.compiler.release>21</maven.compiler.release>
+        <junit.version>5.10.2</junit.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>18</version>
+            <version>22.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>18</version>
+            <version>22.0.1</version>
         </dependency>
 
         <dependency>
@@ -41,6 +38,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>5.0.0-alpha.14</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -48,9 +52,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version>
+                <version>3.13.0</version>
                 <configuration>
-                    <release>${maven.compiler.release}</release>
+                    <source>22</source>
+                    <target>22</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -62,7 +67,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>vidmot.strengir/vidmot.StrengirApplication</mainClass>
+                            <mainClass>hi.interview/hi.interview.vidmot.InterviewApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
