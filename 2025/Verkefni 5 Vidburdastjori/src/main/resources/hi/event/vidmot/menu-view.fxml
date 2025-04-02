@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.ToggleGroup?>
+
+<!-- Viðmótið fyrir menu-inn -->
+
+<MenuBar xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.event.vidmot.MenuController">
+    <menus>
+        <Menu mnemonicParsing="false" text="Skrá">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#onNyr" text="Nýr" />
+                <MenuItem mnemonicParsing="false" onAction="#onOpna" text="Opna" />
+                <MenuItem mnemonicParsing="false" onAction="#onLoka" text="Loka" />
+                <MenuItem mnemonicParsing="false" onAction="#onVista" text="Vista" />
+                <MenuItem mnemonicParsing="false" onAction="#onEyda" text="Eyða" />
+                <MenuItem mnemonicParsing="false" onAction="#onHaetta" text="Hætta" />
+            </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Breyta">
+            <items>
+                <RadioMenuItem fx:id="fxSvartur" mnemonicParsing="false" onAction="#onLitur" selected="false" text="Svartur">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="bakgrunnur" />
+                    </toggleGroup>
+                </RadioMenuItem>
+                <RadioMenuItem fx:id="fxHvitur" mnemonicParsing="false" onAction="#onLitur" selected="true" text="Hvítur" toggleGroup="$bakgrunnur" />
+            </items>
+        </Menu>
+        <Menu mnemonicParsing="false"  text="Hjálp">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#onUm" text="Um" />
+            </items>
+        </Menu>
+    </menus>
+</MenuBar>

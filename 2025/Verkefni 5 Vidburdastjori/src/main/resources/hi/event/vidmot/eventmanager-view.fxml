@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<!-- Viðmót fyrir Aðalviðmótið -->
+
+<?import hi.event.vidmot.EventView?>
+<BorderPane stylesheets="@eventmanager.css" prefHeight="184.0" prefWidth="204.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.event.vidmot.EventManagerController">
+   <top>
+      <fx:include source="menu-view.fxml" />
+   </top>
+   <center>
+      <StackPane fx:id="fxEventViews" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" >
+         <!-- Hér er custom component settur inn -->
+              <EventView />
+      </StackPane>
+   </center>
+</BorderPane>
