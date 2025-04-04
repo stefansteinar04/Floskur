@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?import javafx.scene.shape.Rectangle?>
-<fx:root style="-fx-fill:GOLD" width="10" height="10" type="javafx.scene.shape.Rectangle" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
-
-</fx:root>

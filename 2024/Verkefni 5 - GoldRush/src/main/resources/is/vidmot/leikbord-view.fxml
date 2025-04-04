@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.layout.*?>
-
-<?import is.vidmot.Grafari?>
-<fx:root prefHeight="300.0" prefWidth="309.0"  type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx"
-         xmlns:fx="http://javafx.com/fxml/1">
-    <Grafari fx:id="fxGrafari" x="10.0" y="5.0" />
-</fx:root>
