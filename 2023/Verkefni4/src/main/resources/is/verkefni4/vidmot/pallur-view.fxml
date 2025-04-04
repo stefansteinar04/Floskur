@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!--  custom component -->
-<fx:root type="javafx.scene.shape.Rectangle" xmlns="http://javafx.com/javafx/11.0.2"
-            xmlns:fx="http://javafx.com/fxml/1"
-         height="10" width="150" styleClass="pallur" >
-
-</fx:root>
